@@ -63,8 +63,8 @@ do
   if [[ $i == 4 ]]
   then
     pushd $FILE_DIR
-    echo $txtytz" "$matrix > ${nameArr[$fcount]}.cam
-    echo $focalLend0d1" "$paspect" "$ppxppy >> ${nameArr[$fcount]}.cam
+    echo $txtytz" "$matrix > ${nameArr[$fcount]}.CAM
+    echo $focalLend0d1" "$paspect" "$ppxppy >> ${nameArr[$fcount]}.CAM
     # echo $txtytz" "$matrix
     popd
     let i=-1
